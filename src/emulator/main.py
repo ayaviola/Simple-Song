@@ -11,7 +11,7 @@ class SongPlayer:
         total_samples = np.linspace(
             start=0,
             stop=duration,
-            num= sample_rate * duration,
+            num= int(sample_rate * duration),
             endpoint=False
             )
 
@@ -20,7 +20,9 @@ class SongPlayer:
         for frq in self.notes:
             sound += np.sin(2 * np.pi * frq * total_samples)
         
-        sound = sound / len(sample_rate)
+        if len(self.notes) > 0:
+            sound /= len(self.notes)
 
         sd.play(sound, sample_rate)
         sd.wait()
+        
