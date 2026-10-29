@@ -1,12 +1,8 @@
-'''
-PLEASE NOTE THAT THIS IS PURELY, AND I MEAN PURELY MY OWN PERSONAL EXAMPLE.
-I WILL MAKE VARIOUS EXAMPLES OF VARIOUS SONGS, THIS IS ONE OF THE MANY EXAMPLES YOU COULD RE-USE (which I wouldn't mind!)
-TINKER AND FIT IT TO YOUR STANDARDS, OR INSPIRE YOURSELF OFF OF AND LEARN HOW MY PROGRAM WORKS AND DIFFERENT CASES!!!!
-'''
+"""Personal transcription of Kikuo's 'Twins at the Carousel' :D
 
-'''
-For this example, I transcribed Kikuo - Twins at the Carousel!!
-'''
+This is purely just an example of using the emulator to play independently timed parts.
+Feel free to adapt the arrangement or use it to build other examples :-)
+"""
 
 import re, sys
 from pathlib import Path
@@ -98,8 +94,3 @@ def play_song():
 
 if __name__ == "__main__":
     play_song()
-
-'''
-Again. Purely an example. This isn't expected out of you, this is just
-what you can make with the schematic in src > emulator > emulator.py
-'''
