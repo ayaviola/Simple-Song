@@ -25,4 +25,3 @@ class SongPlayer:
 
         sd.play(sound, sample_rate)
         sd.wait()
-        
