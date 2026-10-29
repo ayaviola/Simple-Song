@@ -5,7 +5,7 @@ TINKER AND FIT IT TO YOUR STANDARDS, OR INSPIRE YOURSELF OFF OF AND LEARN HOW MY
 '''
 
 '''
-For this example, I transcribed Kikuo - Twins at the Carousel !!
+For this example, I transcribed Kikuo - Twins at the Carousel!!
 '''
 
 import re, sys
@@ -32,7 +32,7 @@ def frequency(note):
 RIGHT_HAND = [
     [(3, 'B4 D#5 F#5'), (3, 'D#4 B4 D#5')],
     [(2.5, 'A#3 F#4 A#4'), (0.5, 'B3 G#4 B4'), (3, 'A#3 F#4 A#4')],
-    [(0.5, notes) for n in notes [
+    [(0.5, notes) for notes in [
         'B3 D#4', 'F#4', 'G#4', 'D#4 F#4', 'G#4', 'F#4 A#4',
         'A#4 C#5', 'G#4 B4', 'F#4', 'G#4 B4', 'A#4 C#5', 'B4 D#5',
     ]],
